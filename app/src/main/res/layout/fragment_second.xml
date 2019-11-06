@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD3CF"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/view_transition_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#FFFC00"
+        android:transitionName="view_transition"
+        android:translationZ="0dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view_transition_2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="#F55262"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:translationZ="1dp" />
+
+    </FrameLayout>
+
+</RelativeLayout>
